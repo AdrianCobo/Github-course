@@ -1,0 +1,10 @@
+1) No hacer commit general con todas las modificaciones de los ficheros,
+haz varios commits mejor agrupando los ficheros que tienen relacion entre ellos
+y resuelven algo en especifico.
+
+$ git add (nombre del archivo)
+
+
+GIT COMMANDS:
+add a file to the commit
+$ git add (nombre_archivo) 
