@@ -1,10 +1,44 @@
-1) No hacer commit general con todas las modificaciones de los ficheros,
-haz varios commits mejor agrupando los ficheros que tienen relacion entre ellos
-y resuelven algo en especifico.
+1. Do not make a general commit with all the file modifications, instead of it, do multiple commits selecting the files that have relation between them
+   and solve an specific problem
 
 $ git add (nombre del archivo)
 
+2. Pull request:
+   When you want to contribute in an open source repo and you don't have access to it, what you normally do is to create a fork(clicking
+   at fork button on the github repo), create a new branch, do your changes there and upload it to your fork main repo and when you have finish with
+   your new features implementation, you can make a pull-request (available now in your web fork repo) to the original repo with your changes.
 
 GIT COMMANDS:
+
 add a file to the commit
-$ git add (nombre_archivo) 
+$ git add (file_name)
+
+add part of a file to a commit(y=yes, n=no, e=edit)
+$ git add -p (file_name)
+
+show file changes added to a commit
+$ git diff (file_name)
+
+show file status
+$ git status
+
+create commit using the terminal
+$ git commit
+
+show all the commits:
+$ git log
+
+create a new branch
+$ git branch (branch_name)
+
+go to the a branch
+$ git checkout (branch_name)
+
+create a new branch and go to it
+$ git checkout -b (branch_name)
+
+merge 2 branches
+$ git merge (branch_name)
+
+undo branches merge
+git merge --abort or git rebase --abort
